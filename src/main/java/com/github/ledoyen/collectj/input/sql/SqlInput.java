@@ -11,7 +11,7 @@ public class SqlInput implements Input {
 
 	@Override
 	public Iterable<Metric> execute() {
-		// TODO Auto-generated method stub
+		System.out.println(conf.dataSources());
 		return null;
 	}
 }

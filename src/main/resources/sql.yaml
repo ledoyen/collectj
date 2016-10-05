@@ -1,4 +1,14 @@
 SqlInput:
   dataSources:
-    - url: jdbc:h2:mem
-      name: TEST1
+    - name: TEST1
+      url: jdbc:h2:mem1
+    - name: TEST2
+      url: jdbc:h2:mem2
+
+dataSource:
+  name: TEST3
+  url: jdbc:h2:mem3
+
+toto:
+  - titi
+  - tata
