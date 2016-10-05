@@ -1,0 +1,4 @@
+SqlInput:
+  dataSources:
+    - url: jdbc:h2:mem
+      name: TEST1
